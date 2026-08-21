@@ -36,31 +36,48 @@ He's been here a while. The longer he stays in your world, the more his personal
 * A four-phase evolving personality that changes the longer Verity is in your world
 
 ## FAQ
-Q: Verity is only saying "..." — why?
-A: Either you haven't run the debugger connect command (/script debugger connect traye.ddns.net or the automatic version), or something went wrong on the backend. Check Discord for status updates.
+
+### Q: Verity is only saying `"..."` — why?
+**A:** Either you haven't run the debugger connect command (`/script debugger connect traye.ddns.net` or the automatic version), or something went wrong on the backend. Check Discord for status updates.
+
 ---
-Q: Verity's dialogue box isn't appearing. What do I do?
-A: This usually means Beta APIs aren't enabled, or you're on an outdated version of Verity. Update and double-check your world settings.
+
+### Q: Verity's dialogue box isn't appearing. What do I do?
+**A:** This usually means Beta APIs aren't enabled, or you're on an outdated version of Verity. Update and double-check your world settings.
+
 ---
-Q: What Minecraft version do I need?
-A: 1.26.30 (a.k.a. 26.30).
+
+### Q: What Minecraft version do I need?
+**A:** Minecraft **1.26.30** (a.k.a. **26.30**).
+
 ---
-Q: Verity isn't responding at all. Why?
-A: A few common causes:
-* You haven't run the debugger connect command
-* Beta APIs aren't enabled
+
+### Q: Verity isn't responding at all. Why?
+**A:** A few common causes:
+
+- You haven't run the debugger connect command.
+- Beta APIs aren't enabled.
+
 ---
-Q: What is "hive mind"?
-A: https://youtu.be/aTUvlcG38NQ
+
+### Q: What is "hive mind"?
+**A:** [Watch this video](https://youtu.be/aTUvlcG38NQ).
+
 ---
-Q: Do I need cheats enabled?
-A: Yes, absolutely.
+
+### Q: Do I need cheats enabled?
+**A:** Yes, absolutely.
+
 ---
-Q: Verity isn't talking to me — what do I do?
-A: Type "Verity" followed by whatever you want to say.
+
+### Q: Verity isn't talking to me — what do I do?
+**A:** Type `"Verity"` followed by whatever you want to say.
+
 ---
-Q: I'm getting an "Error: No Purpose"; what should I do?
-A: https://youtube.com/watch?v=zML6cfqFzRc&feature=youtu.be
+
+### Q: I'm getting an `"Error: No Purpose"`; what should I do?
+**A:** [Watch this video](https://youtube.com/watch?v=zML6cfqFzRc).
+
 ---
 
 ## Language Support
