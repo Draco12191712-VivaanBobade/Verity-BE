@@ -1,5 +1,7 @@
 # Verity BE (Official)
 
+<img width="1280" height="720" alt="untitled384_20260701222203-png" src="https://github.com/user-attachments/assets/88d4536b-0c81-4e0d-8427-625fa37c6c3d" />
+
 "I know everything."
 
 Verity brings the mysterious entity from the viral Minecraft horror series into Minecraft Bedrock Edition.
