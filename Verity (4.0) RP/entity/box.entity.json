@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "verity:box",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/verity/entity/box"
+      },
+      "geometry": {
+        "default": "geometry.Box"
+      },
+      "sound_effects": {
+        "box1": "box1",
+        "opening": "opening",
+        "box2": "box2",
+        "box3": "box3"
+      },
+      "animations": {
+        "open": "animation.box.open",
+        "shake": "animation.box.shake",
+        "box_controller": "controller.animation.box.main"
+      },
+      "scripts": {
+        "animate": [
+          "box_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}
+

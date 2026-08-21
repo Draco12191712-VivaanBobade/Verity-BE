@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.box.main": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["shake"],
+          "transitions": [
+            { "opening": "query.mark_variant == 1" }
+          ]
+        },
+        "opening": {
+          "animations": ["open"]
+        }
+      }
+    }
+  }
+}
+
