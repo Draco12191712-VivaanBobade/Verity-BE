@@ -1,0 +1,169 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "verity:verity",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "verity:variant": {
+          "type": "int",
+          "range": [0, 19],
+          "default": 0,
+          "client_sync": true
+        },
+        "verity:is_talking": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "verity:play_spawn": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "verity:is_held": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "verity:held": {
+        "minecraft:movement": {
+          "value": 0.0
+        },
+        "minecraft:physics": {
+          "has_gravity": false,
+          "has_collision": false
+        }
+      },
+      "verity:summoned": {
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:behavior.follow_mob": {
+          "priority": 1,
+          "search_range": 1024,
+          "speed_multiplier": 1.0,
+          "stop_distance": 2,
+          "filters": {
+            "test": "is_family",
+            "subject": "other",
+            "value": "summon_point"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["verity", "mob"]
+      },
+      "minecraft:persistent": {},
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          { "cause": "fire", "deals_damage": "yes" },
+          { "cause": "fire_tick", "deals_damage": "yes" },
+          { "cause": "lava", "deals_damage": "yes" },
+          { "cause": "all", "deals_damage": "no" }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.4
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:leashable": {
+        "can_be_stolen": true,
+        "presets": [
+          {
+            "soft_distance": 4,
+            "hard_distance": 6,
+            "max_distance": 10
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 64,
+        "probability": 1
+      },
+      "minecraft:jump.static": {},
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_walk": true,
+        "avoid_sun": false,
+        "can_pass_doors": false,
+        "can_open_doors": true
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              }
+            },
+            "use_item": false,
+            "hurt_item": 0
+          }
+        ]
+      }
+    },
+    "events": {
+      "verity:finish_spawn": {
+        "set_property": {
+          "verity:play_spawn": false
+        }
+      },
+      "verity:trigger_spawn_fall": {
+        "set_property": {
+          "verity:play_spawn": true
+        }
+      },
+      "verity:begin_introduction": {},
+      "verity:grabbed": {
+        "set_property": {
+          "verity:is_held": true
+        },
+        "add": {
+          "component_groups": ["verity:held"]
+        }
+      },
+      "verity:released": {
+        "set_property": {
+          "verity:is_held": false
+        },
+        "remove": {
+          "component_groups": ["verity:held"]
+        }
+      },
+      "verity:ambush_hostile": {},
+      "verity:ambush_end": {},
+      "verity:start_come_here": {
+        "add": {
+          "component_groups": ["verity:summoned"]
+        }
+      },
+      "verity:stop_come_here": {
+        "remove": {
+          "component_groups": ["verity:summoned"]
+        }
+      }
+    }
+  }
+}

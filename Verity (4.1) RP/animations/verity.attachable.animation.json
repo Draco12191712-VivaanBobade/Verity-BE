@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.verity.first_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [-311.9726, -54.0257, 184.8207],
+          "position": [-5.37, 25.61, -6.8],
+          "scale": 1.25
+        }
+      }
+    },
+    "animation.verity.third_person": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [90.0001, 0.0003, -180.0002],
+          "position": [-0.375, 16.75, -5.5],
+          "scale": 0.7
+        }
+      }
+    }
+  }
+}

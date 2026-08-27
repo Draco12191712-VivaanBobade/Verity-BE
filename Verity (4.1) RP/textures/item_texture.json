@@ -1,0 +1,72 @@
+{
+  "resource_pack_name": "Verity",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "verity_hurt": {
+      "textures": "textures/verity/items/hurt"
+    },
+    "verity_mediumsmile": {
+      "textures": "textures/verity/items/mediumsmile"
+    },
+    "verity_neutral1": {
+      "textures": "textures/verity/items/neutral1"
+    },
+    "verity_noface": {
+      "textures": "textures/verity/items/noface"
+    },
+    "verity_serious1": {
+      "textures": "textures/verity/items/serious1"
+    },
+    "verity_serious2": {
+      "textures": "textures/verity/items/serious2"
+    },
+    "verity_serious3": {
+      "textures": "textures/verity/items/serious3"
+    },
+    "verity_sleep": {
+      "textures": "textures/verity/items/sleep"
+    },
+    "verity_sleeptalk": {
+      "textures": "textures/verity/items/sleeptalk"
+    },
+    "verity_smile1": {
+      "textures": "textures/verity/items/smile1"
+    },
+    "verity_smile2": {
+      "textures": "textures/verity/items/smile2"
+    },
+    "verity_smile3": {
+      "textures": "textures/verity/items/smile3"
+    },
+    "verity_smile4": {
+      "textures": "textures/verity/items/smile4"
+    },
+    "verity_talking1": {
+      "textures": "textures/verity/items/talking1"
+    },
+    "verity_talking2": {
+      "textures": "textures/verity/items/talking2"
+    },
+    "verity_talking3": {
+      "textures": "textures/verity/items/talking3"
+    },
+    "verity_talking4": {
+      "textures": "textures/verity/items/talking4"
+    },
+    "verity_talking5": {
+      "textures": "textures/verity/items/talking5"
+    },
+    "verity_talkingserious": {
+      "textures": "textures/verity/items/talkingserious"
+    },
+    "verity_talkingserious3": {
+      "textures": "textures/verity/items/talkingserious3"
+    },
+    "flashlight_on": {
+      "textures": "textures/flashlight/items/flashlight_on"
+    },
+    "flashlight_off": {
+      "textures": "textures/flashlight/items/flashlight_off"
+    }
+  }
+}

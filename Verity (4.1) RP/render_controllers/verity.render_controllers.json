@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.verity": {
+      "arrays": {
+        "textures": {
+          "Array.verity_skins": [
+            "Texture.default",
+            "Texture.mediumsmile",
+            "Texture.hurt",
+            "Texture.neutral1",
+            "Texture.noface",
+            "Texture.serious1",
+            "Texture.serious2",
+            "Texture.serious3",
+            "Texture.sleep",
+            "Texture.sleeptalk",
+            "Texture.smile2",
+            "Texture.smile3",
+            "Texture.smile4",
+            "Texture.talking1",
+            "Texture.talking2",
+            "Texture.talking3",
+            "Texture.talking4",
+            "Texture.talking5",
+            "Texture.talkingserious",
+            "Texture.talkingserious3"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.verity_skins[query.property('verity:variant')]"
+      ]
+    }
+  }
+}
+

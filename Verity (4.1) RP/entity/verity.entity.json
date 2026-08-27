@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "verity:verity",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/verity/entity/smile1",
+        "mediumsmile": "textures/verity/entity/mediumsmile",
+        "hurt": "textures/verity/entity/hurt",
+        "neutral1": "textures/verity/entity/neutral1",
+        "noface": "textures/verity/entity/noface",
+        "serious1": "textures/verity/entity/serious1",
+        "serious2": "textures/verity/entity/serious2",
+        "serious3": "textures/verity/entity/serious3",
+        "sleep": "textures/verity/entity/sleep",
+        "sleeptalk": "textures/verity/entity/sleeptalk",
+        "smile2": "textures/verity/entity/smile2",
+        "smile3": "textures/verity/entity/smile3",
+        "smile4": "textures/verity/entity/smile4",
+        "talking1": "textures/verity/entity/talking1",
+        "talking2": "textures/verity/entity/talking2",
+        "talking3": "textures/verity/entity/talking3",
+        "talking4": "textures/verity/entity/talking4",
+        "talking5": "textures/verity/entity/talking5",
+        "talkingserious": "textures/verity/entity/talkingserious",
+        "talkingserious3": "textures/verity/entity/talkingserious3"
+      },
+      "geometry": {
+        "default": "geometry.verity_smooth"
+      },
+      "sound_effects": {
+        "hello_im_verity": "hello_im_verity"
+      },
+      "animations": {
+        "verity_fall": "animation.verity.fall",
+        "verity_talk": "animation.verity.talk",
+        "verity_idle": "animation.verity.idle",
+        "verity_roll": "animation.verity.move",
+        "verity_introduction": "animation.verity.introduction",
+        "verity_spawn_ctrl": "controller.animation.verity.spawn"
+      },
+      "scripts": {
+        "animate": [
+          "verity_spawn_ctrl"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.verity"
+      ]
+    }
+  }
+}

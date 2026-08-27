@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "somber:default_lighting"
+    },
+    "directional_lights": {
+      "orbital": {
+        "sun": {
+          "illuminance": 105000.0,
+          "color": [
+            255.0,
+            252.0,
+            245.0
+          ]
+        },
+        "moon": {
+          "illuminance": 0.18,
+          "color": "#d9e2ffff"
+        },
+        "orbital_offset_degrees": 0.0
+      },
+      "flash": {
+        "illuminance": 5.0,
+        "color": "#ffffffff"
+      }
+    },
+    "emissive": {
+      "desaturation": 0.08
+    },
+    "ambient": {
+      "illuminance": 0.015,
+      "color": "#d8d9d2ff"
+    },
+    "sky": {
+      "intensity": 0.75
+    }
+  }
+}
