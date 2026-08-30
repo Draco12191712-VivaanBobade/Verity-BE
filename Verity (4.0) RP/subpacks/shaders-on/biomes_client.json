@@ -1,7 +1,0 @@
-{
-    "biomes": {
-        "default": {
-            "fog_identifier": "somber:fog_default"
-        }
-    }
-}
