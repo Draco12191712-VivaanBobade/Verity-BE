@@ -63,8 +63,8 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 
   player.sendMessage("§5━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
   player.sendMessage("Developer Build/Release Notes:");
-  player.sendMessage("Build Number 0829.1");
-  player.sendMessage("Verity Version 4.1.1");
+  player.sendMessage("Build Number 0915.1");
+  player.sendMessage("Verity Version 4.1.3");
   player.sendMessage("Uploaded By: Draco12191712");
   player.sendMessage("§5━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 
