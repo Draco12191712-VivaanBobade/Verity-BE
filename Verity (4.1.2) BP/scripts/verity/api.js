@@ -26,6 +26,7 @@ export class HivemindAPI {
         if (settings.logFailures === undefined) settings.logFailures = true;
         if (settings.namespace === undefined) settings.namespace = "hivemind";
         if (settings.scriptEvent === undefined) settings.scriptEvent = true;
+
         this.logFailures = settings.logFailures;
         this.scriptEvent = settings.scriptEvent;
         this.pendingRequests = new Map();
